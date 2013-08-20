@@ -5,14 +5,6 @@
 # Installs GeoIP database and lookup executables
 #
 
-package "geoip-database" do
-  action :upgrade
-end
-
-package "geoip-bin" do
-  action :upgrade
-end
-
-package "libgeoip-dev" do
-  action :upgrade
-end
+include_recipe "geoip::data"
+include_recipe "geoip::bin"
+include_recipe "geoip::devel"
