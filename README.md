@@ -6,7 +6,7 @@ Installs GeoIP database and lookup executables.
 REQUIREMENTS
 ====
 
-Tested on Ubuntu.
+Tested on Ubuntu and PLD Linux.
 
 USAGE
 ====
